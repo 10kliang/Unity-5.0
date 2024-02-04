@@ -11,5 +11,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Sophia.unity
     guid: 663606d13ab053e4e84d11ab56f5e479
+  - enabled: 1
+    path: Assets/Scenes/Ending.unity
+    guid: 96c8064e832e7ef4c96284daad049f59
   m_configObjects: {}
   m_UseUCBPForAssetBundles: 0
