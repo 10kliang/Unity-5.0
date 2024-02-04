@@ -8,6 +8,8 @@ public class PickUpKey : MonoBehaviour
     public GameObject invOB;
     public GameObject pickUpText;
     public AudioSource keySound;
+    public GameObject idleDemon;
+    public GameObject activeDemon;
 
     public bool inReach;
 
@@ -49,6 +51,11 @@ public class PickUpKey : MonoBehaviour
             keySound.Play();
             invOB.SetActive(true);
             pickUpText.SetActive(false);
+            if (activeDemon!=null && idleDemon!=null)
+            {
+                idleDemon.SetActive(false);
+                activeDemon.SetActive(true);
+            }
         }
 
         
