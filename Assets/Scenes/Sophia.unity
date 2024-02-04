@@ -33087,7 +33087,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   door: {fileID: 1518202477}
   openText: {fileID: 90863135}
-  KeyINV: {fileID: 468320491}
+  KeyINV: {fileID: 1295293071}
   doorSound: {fileID: 365682562}
   lockedSound: {fileID: 1100287856}
   inReach: 0

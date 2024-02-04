@@ -1,6 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class DoorsWithLock : MonoBehaviour
 {
@@ -35,6 +37,10 @@ public class DoorsWithLock : MonoBehaviour
         {
             inReach = true;
             openText.SetActive(true);
+            if (KeyINV != null && KeyINV.name == "TertiaryKey")
+            {
+                SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            }
         }
     }
 
