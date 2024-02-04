@@ -8,6 +8,7 @@ TagManager:
   - Reach
   - SkinRat
   - PassableWall
+  - Demon
   layers:
   - Default
   - TransparentFX

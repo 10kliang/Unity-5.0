@@ -264,7 +264,7 @@ public class SC_FPSController : MonoBehaviour
 
     void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.tag == "SkinRat")
+        if (collision.gameObject.tag == "SkinRat" || collision.gameObject.tag == "Demon")
         {
             
             hit.Play();
